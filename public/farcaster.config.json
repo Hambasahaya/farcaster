@@ -1,0 +1,25 @@
+{
+  "name": "Clenxi",
+  "description": "Daily claim 1000 $CLENXI and get 5000 $CLENXI per friend referral!",
+  "icon": "/logo.png",
+  "url": "https://farcaster-1bhnsl40i-hambasahayas-projects.vercel.app/", 
+  "version": "1.0.0",
+  "author": {
+    "name": "Clenxi",
+    "username": "clenix.eth"
+  },
+  "categories": ["games", "defi", "social"],
+  "permissions": ["identity", "storage", "wallet"],
+  "frame": {
+    "enabled": true,
+    "url": "https://farcaster-1bhnsl40i-hambasahayas-projects.vercel.app//api/frame" 
+  },
+  "miniapp": {
+    "enabled": true,
+    "entrypoint": "https://farcaster-1bhnsl40i-hambasahayas-projects.vercel.app/", 
+    "manifest": "https://farcaster-1bhnsl40i-hambasahayas-projects.vercel.app/manifest.json" 
+  },
+  "social": {
+    "farcaster": "https://farcaster-1bhnsl40i-hambasahayas-projects.vercel.app/" 
+  }
+}
