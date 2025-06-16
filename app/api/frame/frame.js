@@ -23,9 +23,13 @@ export async function GET(req: NextRequest) {
       image: `${baseUrl}/logo.png`,
       buttons: [
         {
-          label: "🎮 Play Clenxi",
-          action: "post",
-          target: `${baseUrl}/api/frame-action`,
+           action: {
+        type: "launch_frame",
+        name: "🎮 Play Clenxi",
+        url: baseUrl + path,
+        splashImageUrl: `${baseUrl}/api/frame-action`,
+        splashBackgroundColor: "#111111",
+      },
         },
       ],
     },
@@ -71,13 +75,17 @@ export async function POST(req: NextRequest) {
         version: "v0.2",
         title: "Redirecting to Clenxi Game...",
         image: `${baseUrl}/logo.png`,
-        buttons: [
-          {
-            label: "🎮 Play Now & Get 5000 $CLENXI",
-            action: "post",
-            target: targetUrl,
-          },
-        ],
+         buttons: [
+        {
+           action: {
+        type: "launch_frame",
+        name: "🎮 Play Clenxi",
+        url: baseUrl + path,
+        splashImageUrl: `${baseUrl}/api/frame-action`,
+        splashBackgroundColor: "#111111",
+      },
+        },
+      ],
       },
       {
         status: 200,
