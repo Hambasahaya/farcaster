@@ -74,7 +74,7 @@ export async function POST(req: NextRequest) {
         buttons: [
           {
             label: "🎮 Play Now & Get 5000 $CLENXI",
-            action: "link",
+            action: "post",
             target: targetUrl,
           },
         ],
