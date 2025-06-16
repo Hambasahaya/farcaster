@@ -1,0 +1,26 @@
+{
+  "name": "Clenxi",
+  "short_name": "Clenxi",
+  "description": "Daily claim 1000 $CLENXI and get 5000 $CLENXI per friend referral! Community-driven Web3 project.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment", "finance"],
+  "lang": "en"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "CLENXI Game",
+  "description": "Daily claim 1000 $CLENXI and get 5000 $CLENXI per friend referral!",
+  "icon": "/logo.png",
+  "url": "https://your-domain.vercel.app",
+  "version": "1.0.0",
+  "author": {
+    "name": "CLENXI Team",
+    "url": "https://your-domain.vercel.app"
+  },
+  "categories": ["games", "defi", "social"],
+  "screenshots": ["/logo.png"],
+  "permissions": ["identity", "storage"],
+  "frame": {
+    "enabled": true,
+    "url": "/api/frame"
+  }
+}
